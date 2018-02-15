@@ -951,3 +951,49 @@ footer{
         page-break-after: avoid;
     }
 }
+
+.hidden {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+.playground-header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    align-self: start;
+    justify-self: start;
+}
+/*Playground buttons*/
+.playground-links {
+    position: relative;
+    display: flex;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.playground-icons {
+    display: inline-block;
+    margin: 0.15em;
+    padding: 0.25em;
+    color:#940707;
+}
+.playground-icons:hover{
+    color:#b53030;
+}
+.playground-header h1{
+    font-size: 16px;
+    margin: 0 0 0 0.5em;
+    color:#940707;
+}
+.icon {
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 auto;
+    fill: currentColor;
+}
