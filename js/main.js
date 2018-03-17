@@ -86,7 +86,7 @@ $(document).ready(function(){
 
 
 		// Pin Mobile Screen
-		var pinScene01 = new ScrollMagic.Scene({
+		var pinMobile = new ScrollMagic.Scene({
 			triggerElement: '#phone-floater-container',
 			triggerHook: 0,
 			duration: '1600'
